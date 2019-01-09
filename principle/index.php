@@ -108,10 +108,10 @@ In the appendix there is a section in which popular medicines are collected. Whe
     <script>
     $(function(){
         $('.home').click(function(){
-           location.href='https://site-uslugi.ru/ps/';
+           location.href='https://emil4443.github.io/';
        }),
             $('.mail').click(function(){
-           location.href='https://site-uslugi.ru/ps/form/';
+           location.href='https://emil4443.github.io/form/';
        });
     });
     </script>

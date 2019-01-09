@@ -28,7 +28,7 @@
                    <img class="logo1" src="../images/icon.png" alt=""> <span class="h4">Pain Search</span>
               </div>
                 <h2>Fill out the form and we will contact you</h2>
-                <form method="post" action="https://www.site-uslugi.ru/ps/application.php">
+                <form method="post" action="https://emil4443.github.io/application.php">
 
                     <div class="group">
                         <input type="text" name="name" required>
@@ -64,10 +64,10 @@
     <script>
     $(function(){
         $('.home').click(function(){
-           location.href='https://site-uslugi.ru/ps/';
+           location.href='https://emil4443.github.io/';
        }),
             $('.info').click(function(){
-           location.href='https://site-uslugi.ru/ps/principle/';
+           location.href='https://emil4443.github.io/principle/';
        });
     });
     </script>
