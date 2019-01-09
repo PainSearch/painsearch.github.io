@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container-fluid">
+            <ul class="ulnav ">
+                <li class="home col-xs-4"> <img src="../images/home2.png" alt=""></li>
+                <li class="info col-xs-4"> <img src="../images/Information%203.png" alt=""></li>
+                <li class="mail col-xs-4"> <img src="../images/envelope.png" alt=""></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="form col-sm-4 col-sm-offset-4">
+              <div class="logo_main1">
+                   <img class="logo1" src="../images/icon.png" alt=""> <span class="h4">Pain Search</span>
+              </div>
+                <h2>Fill out the form and we will contact you</h2>
+                <form method="post" action="https://www.site-uslugi.ru/ps/application.php">
+
+                    <div class="group">
+                        <input type="text" name="name" required>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Name</label>
+                    </div>
+
+                    <div class="group">
+                        <input type="email" name="email" required>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Email</label>
+                    </div>
+
+                    <div class="group">
+                        <input type="text" name="text" required>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Text</label>
+                    </div>
+
+                    <button class="btn red" type="submit">
+                    <span>SEND</span>
+                    </button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js "></script>
+    <script src="../bootstrap/bootstrap.min.js"></script>
+    <script>
+    $(function(){
+        $('.home').click(function(){
+           location.href='https://site-uslugi.ru/ps/';
+       }),
+            $('.info').click(function(){
+           location.href='https://site-uslugi.ru/ps/principle/';
+       });
+    });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Principle of operation</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" href="../styles.css">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container-fluid">
+            <ul class="ulnav ">
+                <li class=" home col-xs-4"> <img src="../images/home2.png" alt=""></li>
+                <li class="col-xs-4"> <img src="../images/info4.png" alt=""></li>
+                <li class="mail col-xs-4"> <img src="../images/Mail.png" alt=""></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+           <div class="col-sm-8 col-sm-offset-2">
+                <h1 class="h1">Principle of operation</h1>
+           </div>
+           
+        </div>
+         <div class="row">
+           <div class="col-sm-8 col-sm-offset-2">
+                <h2 class="h2_2">1. Registration</h2>
+            <div class="col-sm-8 col-sm-offset-2">
+                <img src="../gifs/registration.gif" alt="">
+            </div>
+            <p class="col-sm-12 p_main_2">For successful registration you need to enter a name, a surname, a mail and a password. After successful registration you will be directed to the main application page.(the password must be at least 6 characters long)</p>
+           </div>
+           <hr>
+        </div>
+         <div class="row">
+           <div class="col-sm-8 col-sm-offset-2">
+                <h2 class="h2_2">2. Login</h2>
+            <div class="col-sm-8 col-sm-offset-2">
+                <img src="../gifs/LOGIN.gif" alt="">
+            </div>
+            <p class="col-sm-12 p_main_2">To enter the application, you must enter the data entered earlier.</p>
+           </div>
+           <hr>
+        </div>
+        <div class="row">
+           <div class="col-sm-8 col-sm-offset-2">
+                <h2 class="h2_2">3. Profile</h2>
+            <div class="col-sm-8 col-sm-offset-2">
+                <img src="../gifs/CHANGE-NAME.gif" alt="">
+            </div>
+            <p class="col-sm-12 p_main_2">
+In the application you can change the name and surname entered at registration, as well as profile avatar.</p>
+           </div>
+           <hr>
+        </div>
+         <div class="row">
+           <div class="col-sm-8 col-sm-offset-2">
+                <h2 class="h2_2">4. Test</h2>
+            <div class="col-sm-8 col-sm-offset-2">
+                <img src="../gifs/test.gif" alt="">
+            </div>
+            <p class="col-sm-12 p_main_2">To pass the test, you need to select your gender, then the exciting part of the body and the interview, consisting of several questions. In the end, you will get the result: the cause of the pain and the doctors who specialize in this field.</p>
+           </div>
+           <hr>
+        </div>
+         <div class="row">
+           <div class="col-sm-8 col-sm-offset-2">
+                <h2 class="h2_2">5. History</h2>
+            <div class="col-sm-8 col-sm-offset-2">
+                <img src="../gifs/HISTORY.gif" alt="">
+            </div>
+            <p class="col-sm-12 p_main_2">All the results for convenience are recorded in history. The information in it is located most conveniently for the user.</p>
+           </div>
+           <hr>
+        </div>
+        <div class="row">
+           <div class="col-sm-8 col-sm-offset-2">
+                <h2 class="h2_2">6. Medicines</h2>
+            <div class="col-sm-8 col-sm-offset-2">
+                <img src="../gifs/ANALOG.gif" alt="">
+            </div>
+            <p class="col-sm-12 p_main_2">
+In the appendix there is a section in which popular medicines are collected. When clicking on the corresponding medicine, a page appears with a cheaper analogue, as well as the active substance of each medicine is indicated. Provided that the drug is prescription, there is a plate with the inscription "recipe drug".</p>
+           </div>
+           <hr>
+        </div>
+    </div>
+    <footer>
+
+        <div class="container-fluid">
+            <div class="row">
+                <center>
+                   <a style="color:gray;font-family: 'FFMarkWeb';" href="../index.html">Main Page</a> | <a style="color:gray;font-family: 'FFMarkWeb';" href="../form/index.php">Form Page</a><br><br><br>
+                    <a href="https://github.com/kamikhai/Pain_Search">  <img style="width:30px;" src="../images/github-logo.png" alt=""></a><br><br><br>
+
+                    <span style="font-size:17px;"> © 2018 PainSearch.com. All rights reserved.</span>
+                </center>
+
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js "></script>
+    <script>
+    $(function(){
+        $('.home').click(function(){
+           location.href='https://site-uslugi.ru/ps/';
+       }),
+            $('.mail').click(function(){
+           location.href='https://site-uslugi.ru/ps/form/';
+       });
+    });
+    </script>
+</body>
+</html>
